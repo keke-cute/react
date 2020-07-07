@@ -1,17 +1,36 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React from 'react'
+import ReactDOM from 'react-dom'
+
 import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+import Part1a from './Components/Part1a'
+import Part1c from './Components/Part1c'
+import Part1d from './Components/Part1d'
+import Part1homework from './Components/Part1homework'
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+//React 组件必须大写
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+function App () {
+    return (
+	<body>
+	    <div>
+		<h1>Part1a</h1>
+		<Part1a />
+	    </div>
+	    <div>
+		<h1>Part1c</h1>
+		<Part1c />
+	    </div>
+	    <div>
+		<h1>Part1d</h1>
+		<Part1d />
+	    </div>
+	    <div>
+		<h1>Part1Homework</h1>
+		<Part1homework />
+	    </div>
+	</body>
+    )
+}
+
+
+ReactDOM.render(<App />, document.getElementById('root'))

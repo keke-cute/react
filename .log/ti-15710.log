@@ -1,0 +1,71 @@
+[13:7:59.127] Global cache location '/Users/keke/Library/Caches/typescript/3.9', safe file path '/opt/local/lib/node_modules/typescript/lib/typingsafelist.json', types map path /opt/local/lib/node_modules/typescript/lib/typesmap.json
+[13:7:59.131] Processing cache location '/Users/keke/Library/Caches/typescript/3.9'
+[13:7:59.131] Trying to find '/Users/keke/Library/Caches/typescript/3.9/package.json'...
+[13:7:59.133] Loaded content of '/Users/keke/Library/Caches/typescript/3.9/package.json': {"private":true,"dependencies":{"types-registry":"^0.1.496"}}
+[13:7:59.133] Loaded content of '/Users/keke/Library/Caches/typescript/3.9/package-lock.json'
+[13:7:59.133] Finished processing cache location '/Users/keke/Library/Caches/typescript/3.9'
+[13:7:59.134] Process id: 15711
+[13:7:59.135] NPM location: /opt/local/bin/npm (explicit '--npmLocation' not  provided)
+[13:7:59.137] validateDefaultNpmLocation: false
+[13:7:59.137] Npm config file: /Users/keke/Library/Caches/typescript/3.9/package.json
+[13:7:59.138] Updating types-registry npm package...
+[13:7:59.138] Exec: /opt/local/bin/npm install --ignore-scripts types-registry@latest
+[13:8:1.571]     Succeeded. stdout:
+    + types-registry@0.1.496
+    updated 1 package and audited 1 package in 1.737s
+found 0 vulnerabilities
+
+
+[13:8:1.571] Updated types-registry npm package
+[13:8:1.586] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":["/opt/local/lib/node_modules/typescript/lib/lib.d.ts","/opt/local/lib/node_modules/typescript/lib/lib.es5.d.ts","/opt/local/lib/node_modules/typescript/lib/lib.dom.d.ts","/opt/local/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/opt/local/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/Users/keke/part1/src/App.js","/Users/keke/part1/src/serviceWorker.js","/Users/keke/part1/src/index.js"],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/Users/keke/part1/src","kind":"discover"}
+[13:8:1.604] Loaded safelist from types map file '/opt/local/lib/node_modules/typescript/lib/typesmap.json'
+[13:8:1.605] Explicitly included types: []
+[13:8:1.607] Inferred typings from unresolved imports: []
+[13:8:1.607] Result: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/Users/keke/part1/src/bower_components","/Users/keke/part1/src/node_modules"]}
+[13:8:1.607] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/Users/keke/part1/src/bower_components","/Users/keke/part1/src/node_modules"]}
+[13:8:1.607] DirectoryWatcher:: Added:: WatchInfo: /Users/keke/part1/src/bower_components
+[13:8:1.610] DirectoryWatcher:: Added:: WatchInfo: /Users/keke/part1/src/node_modules
+[13:8:1.611] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":[],"kind":"action::set"}
+[13:8:1.611] Response has been sent.
+[13:8:1.611] No new typings were requested as a result of typings discovery
+[13:8:42.565] Got install request {"projectName":"/dev/null/inferredProject2*","fileNames":["/opt/local/lib/node_modules/typescript/lib/lib.d.ts","/opt/local/lib/node_modules/typescript/lib/lib.es5.d.ts","/opt/local/lib/node_modules/typescript/lib/lib.dom.d.ts","/opt/local/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/opt/local/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/Users/keke/part1/src/App.js","/Users/keke/part1/src/App.test.js"],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/Users/keke/part1/src","kind":"discover"}
+[13:8:42.571] Explicitly included types: []
+[13:8:42.577] Inferred typings from unresolved imports: []
+[13:8:42.579] Result: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/Users/keke/part1/src/bower_components","/Users/keke/part1/src/node_modules"]}
+[13:8:42.580] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/Users/keke/part1/src/bower_components","/Users/keke/part1/src/node_modules"]}
+[13:8:42.588] DirectoryWatcher:: Added:: WatchInfo: /Users/keke/part1/src/bower_components
+[13:8:42.591] DirectoryWatcher:: Added:: WatchInfo: /Users/keke/part1/src/node_modules
+[13:8:42.592] Sending response:
+    {"projectName":"/dev/null/inferredProject2*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":[],"kind":"action::set"}
+[13:8:42.594] Response has been sent.
+[13:8:42.594] No new typings were requested as a result of typings discovery
+[13:25:58.451] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":["/opt/local/lib/node_modules/typescript/lib/lib.d.ts","/opt/local/lib/node_modules/typescript/lib/lib.es5.d.ts","/opt/local/lib/node_modules/typescript/lib/lib.dom.d.ts","/opt/local/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/opt/local/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/Users/keke/part1/src/serviceWorker.js","/Users/keke/part1/src/index.js"],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/Users/keke/part1/src","kind":"discover"}
+[13:25:58.457] Explicitly included types: []
+[13:25:58.457] Inferred typings from unresolved imports: []
+[13:25:58.457] Result: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/Users/keke/part1/src/bower_components","/Users/keke/part1/src/node_modules"]}
+[13:25:58.457] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/Users/keke/part1/src/bower_components","/Users/keke/part1/src/node_modules"]}
+[13:25:58.458] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":[],"kind":"action::set"}
+[13:25:58.458] Response has been sent.
+[13:25:58.458] No new typings were requested as a result of typings discovery
+[13:25:58.778] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":["/opt/local/lib/node_modules/typescript/lib/lib.d.ts","/opt/local/lib/node_modules/typescript/lib/lib.es5.d.ts","/opt/local/lib/node_modules/typescript/lib/lib.dom.d.ts","/opt/local/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/opt/local/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/Users/keke/part1/src/index.js"],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/Users/keke/part1/src","kind":"discover"}
+[13:25:58.778] Explicitly included types: []
+[13:25:58.783] Inferred typings from unresolved imports: []
+[13:25:58.784] Result: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/Users/keke/part1/src/bower_components","/Users/keke/part1/src/node_modules"]}
+[13:25:58.784] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/Users/keke/part1/src/bower_components","/Users/keke/part1/src/node_modules"]}
+[13:25:58.784] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":[],"kind":"action::set"}
+[13:25:58.785] Response has been sent.
+[13:25:58.785] No new typings were requested as a result of typings discovery
+[14:55:58.298] Got install request {"projectName":"/dev/null/inferredProject3*","fileNames":["/opt/local/lib/node_modules/typescript/lib/lib.d.ts","/opt/local/lib/node_modules/typescript/lib/lib.es5.d.ts","/opt/local/lib/node_modules/typescript/lib/lib.dom.d.ts","/opt/local/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/opt/local/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/Users/keke/part1/public/manifest.json"],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/Users/keke/part1/public","kind":"discover"}
+[14:55:58.306] Explicitly included types: []
+[14:55:58.307] Inferred typings from unresolved imports: []
+[14:55:58.308] Result: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/Users/keke/part1/public/bower_components","/Users/keke/part1/public/node_modules"]}
+[14:55:58.308] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/Users/keke/part1/public/bower_components","/Users/keke/part1/public/node_modules"]}
+[14:55:58.309] DirectoryWatcher:: Added:: WatchInfo: /Users/keke/part1/public/bower_components
+[14:55:58.310] DirectoryWatcher:: Added:: WatchInfo: /Users/keke/part1/public/node_modules
+[14:55:58.314] Sending response:
+    {"projectName":"/dev/null/inferredProject3*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":[],"kind":"action::set"}
+[14:55:58.316] Response has been sent.
+[14:55:58.316] No new typings were requested as a result of typings discovery

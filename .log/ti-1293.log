@@ -1,0 +1,191 @@
+[13:38:56.502] Global cache location '/Users/keke/Library/Caches/typescript/3.9', safe file path '/opt/local/lib/node_modules/typescript/lib/typingsafelist.json', types map path /opt/local/lib/node_modules/typescript/lib/typesmap.json
+[13:38:56.504] Processing cache location '/Users/keke/Library/Caches/typescript/3.9'
+[13:38:56.508] Trying to find '/Users/keke/Library/Caches/typescript/3.9/package.json'...
+[13:38:56.511] Loaded content of '/Users/keke/Library/Caches/typescript/3.9/package.json': {"private":true,"dependencies":{"types-registry":"^0.1.497"}}
+[13:38:56.511] Loaded content of '/Users/keke/Library/Caches/typescript/3.9/package-lock.json'
+[13:38:56.511] Finished processing cache location '/Users/keke/Library/Caches/typescript/3.9'
+[13:38:56.512] Process id: 1294
+[13:38:56.512] NPM location: /opt/local/bin/npm (explicit '--npmLocation' not  provided)
+[13:38:56.512] validateDefaultNpmLocation: false
+[13:38:56.513] Npm config file: /Users/keke/Library/Caches/typescript/3.9/package.json
+[13:38:56.513] Updating types-registry npm package...
+[13:38:56.513] Exec: /opt/local/bin/npm install --ignore-scripts types-registry@latest
+[13:39:0.230]     Succeeded. stdout:
+    + types-registry@0.1.497
+    updated 1 package and audited 1 package in 2.531s
+found 0 vulnerabilities
+
+
+[13:39:0.230] Updated types-registry npm package
+[13:39:0.251] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":["/opt/local/lib/node_modules/typescript/lib/lib.d.ts","/opt/local/lib/node_modules/typescript/lib/lib.es5.d.ts","/opt/local/lib/node_modules/typescript/lib/lib.dom.d.ts","/opt/local/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/opt/local/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/Users/keke/part1a/src/index.js"],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/Users/keke/part1a/src","kind":"discover"}
+[13:39:0.274] Loaded safelist from types map file '/opt/local/lib/node_modules/typescript/lib/typesmap.json'
+[13:39:0.275] Explicitly included types: []
+[13:39:0.277] Inferred typings from unresolved imports: []
+[13:39:0.277] Result: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/Users/keke/part1a/src/bower_components","/Users/keke/part1a/src/node_modules"]}
+[13:39:0.277] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/Users/keke/part1a/src/bower_components","/Users/keke/part1a/src/node_modules"]}
+[13:39:0.278] DirectoryWatcher:: Added:: WatchInfo: /Users/keke/part1a/src/bower_components
+[13:39:0.280] DirectoryWatcher:: Added:: WatchInfo: /Users/keke/part1a/src/node_modules
+[13:39:0.280] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":[],"kind":"action::set"}
+[13:39:0.283] Response has been sent.
+[13:39:0.283] No new typings were requested as a result of typings discovery
+[13:39:2.975] Got install request {"projectName":"/dev/null/inferredProject2*","fileNames":["/opt/local/lib/node_modules/typescript/lib/lib.d.ts","/opt/local/lib/node_modules/typescript/lib/lib.es5.d.ts","/opt/local/lib/node_modules/typescript/lib/lib.dom.d.ts","/opt/local/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/opt/local/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/Users/keke/part1a/src/Components/Part1a.js"],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/Users/keke/part1a/src/Components","kind":"discover"}
+[13:39:2.976] Explicitly included types: []
+[13:39:2.981] Inferred typings from unresolved imports: []
+[13:39:2.981] Result: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/Users/keke/part1a/src/Components/bower_components","/Users/keke/part1a/src/Components/node_modules"]}
+[13:39:2.981] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/Users/keke/part1a/src/Components/bower_components","/Users/keke/part1a/src/Components/node_modules"]}
+[13:39:2.981] DirectoryWatcher:: Added:: WatchInfo: /Users/keke/part1a/src/Components/bower_components
+[13:39:2.982] DirectoryWatcher:: Added:: WatchInfo: /Users/keke/part1a/src/Components/node_modules
+[13:39:2.982] Sending response:
+    {"projectName":"/dev/null/inferredProject2*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":[],"kind":"action::set"}
+[13:39:2.982] Response has been sent.
+[13:39:2.982] No new typings were requested as a result of typings discovery
+[13:40:10.205] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":["/opt/local/lib/node_modules/typescript/lib/lib.d.ts","/opt/local/lib/node_modules/typescript/lib/lib.es5.d.ts","/opt/local/lib/node_modules/typescript/lib/lib.dom.d.ts","/opt/local/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/opt/local/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/Users/keke/part1a/src/Components/Part1a.js","/Users/keke/part1a/src/index.js"],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/Users/keke/part1a/src","kind":"discover"}
+[13:40:10.212] Explicitly included types: []
+[13:40:10.215] Inferred typings from unresolved imports: []
+[13:40:10.218] Result: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/Users/keke/part1a/src/Components/bower_components","/Users/keke/part1a/src/Components/node_modules","/Users/keke/part1a/src/bower_components","/Users/keke/part1a/src/node_modules"]}
+[13:40:10.222] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/Users/keke/part1a/src/Components/bower_components","/Users/keke/part1a/src/Components/node_modules","/Users/keke/part1a/src/bower_components","/Users/keke/part1a/src/node_modules"]}
+[13:40:10.222] DirectoryWatcher:: Added:: WatchInfo: /Users/keke/part1a/src/Components
+[13:40:10.241] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":[],"kind":"action::set"}
+[13:40:10.242] Response has been sent.
+[13:40:10.243] No new typings were requested as a result of typings discovery
+[13:40:12.857] Got install request {"projectName":"/dev/null/inferredProject2*","fileNames":[],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/Users/keke/part1a/src/Components","kind":"discover"}
+[13:40:12.857] Explicitly included types: []
+[13:40:12.863] Inferred typings from unresolved imports: []
+[13:40:12.863] Result: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/Users/keke/part1a/src/Components/bower_components","/Users/keke/part1a/src/Components/node_modules"]}
+[13:40:12.863] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/Users/keke/part1a/src/Components/bower_components","/Users/keke/part1a/src/Components/node_modules"]}
+[13:40:12.864] Sending response:
+    {"projectName":"/dev/null/inferredProject2*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true},"typings":[],"unresolvedImports":[],"kind":"action::set"}
+[13:40:12.864] Response has been sent.
+[13:40:12.864] No new typings were requested as a result of typings discovery
+[13:40:28.90] DirectoryWatcher:: Triggered with /Users/keke/part1a/src/Components/.#Part1a.js :: WatchInfo: /Users/keke/part1a/src/Components recursive :: handler is already invoked 'false'
+[13:40:28.982] DirectoryWatcher:: Triggered with /Users/keke/part1a/src/Components/.#Part1a.js :: WatchInfo: /Users/keke/part1a/src/Components recursive :: handler is already invoked 'false'
+[13:47:23.385] DirectoryWatcher:: Triggered with /Users/keke/part1a/src/Components/.#Part1a.js :: WatchInfo: /Users/keke/part1a/src/Components recursive :: handler is already invoked 'false'
+[13:47:26.377] DirectoryWatcher:: Triggered with /Users/keke/part1a/src/Components/.#Part1a.js :: WatchInfo: /Users/keke/part1a/src/Components recursive :: handler is already invoked 'false'
+[13:48:59.456] DirectoryWatcher:: Triggered with /Users/keke/part1a/src/Components/index.js :: WatchInfo: /Users/keke/part1a/src/Components recursive :: handler is already invoked 'false'
+[13:49:6.253] DirectoryWatcher:: Triggered with /Users/keke/part1a/src/Components/index.js :: WatchInfo: /Users/keke/part1a/src/Components recursive :: handler is already invoked 'false'
+[13:49:6.255] DirectoryWatcher:: Triggered with /Users/keke/part1a/src/Components/Part1c.js :: WatchInfo: /Users/keke/part1a/src/Components recursive :: handler is already invoked 'false'
+[13:49:16.680] Got install request {"projectName":"/dev/null/inferredProject2*","fileNames":["/opt/local/lib/node_modules/typescript/lib/lib.d.ts","/opt/local/lib/node_modules/typescript/lib/lib.es5.d.ts","/opt/local/lib/node_modules/typescript/lib/lib.dom.d.ts","/opt/local/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/opt/local/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/Users/keke/part1a/src/Components/Part1c.js"],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/Users/keke/part1a/src/Components","kind":"discover"}
+[13:49:16.681] Explicitly included types: []
+[13:49:16.685] Inferred typings from unresolved imports: []
+[13:49:16.686] Result: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/Users/keke/part1a/src/Components/bower_components","/Users/keke/part1a/src/Components/node_modules"]}
+[13:49:16.686] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/Users/keke/part1a/src/Components/bower_components","/Users/keke/part1a/src/Components/node_modules"]}
+[13:49:16.686] Sending response:
+    {"projectName":"/dev/null/inferredProject2*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":[],"kind":"action::set"}
+[13:49:16.686] Response has been sent.
+[13:49:16.687] No new typings were requested as a result of typings discovery
+[13:49:48.503] DirectoryWatcher:: Triggered with /Users/keke/part1a/src/Components/.#Part1c.js :: WatchInfo: /Users/keke/part1a/src/Components recursive :: handler is already invoked 'false'
+[13:49:58.658] DirectoryWatcher:: Triggered with /Users/keke/part1a/src/Components/.#Part1c.js :: WatchInfo: /Users/keke/part1a/src/Components recursive :: handler is already invoked 'false'
+[13:50:8.108] DirectoryWatcher:: Triggered with /Users/keke/part1a/src/Components/.#Part1c.js :: WatchInfo: /Users/keke/part1a/src/Components recursive :: handler is already invoked 'false'
+[13:50:11.850] DirectoryWatcher:: Triggered with /Users/keke/part1a/src/Components/.#Part1c.js :: WatchInfo: /Users/keke/part1a/src/Components recursive :: handler is already invoked 'false'
+[13:50:15.476] DirectoryWatcher:: Triggered with /Users/keke/part1a/src/Components/.#Part1c.js :: WatchInfo: /Users/keke/part1a/src/Components recursive :: handler is already invoked 'false'
+[13:50:19.425] DirectoryWatcher:: Triggered with /Users/keke/part1a/src/Components/.#Part1c.js :: WatchInfo: /Users/keke/part1a/src/Components recursive :: handler is already invoked 'false'
+[13:50:21.461] DirectoryWatcher:: Triggered with /Users/keke/part1a/src/Components/.#Part1c.js :: WatchInfo: /Users/keke/part1a/src/Components recursive :: handler is already invoked 'false'
+[13:50:24.630] DirectoryWatcher:: Triggered with /Users/keke/part1a/src/Components/.#Part1c.js :: WatchInfo: /Users/keke/part1a/src/Components recursive :: handler is already invoked 'false'
+[13:51:6.299] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":["/opt/local/lib/node_modules/typescript/lib/lib.d.ts","/opt/local/lib/node_modules/typescript/lib/lib.es5.d.ts","/opt/local/lib/node_modules/typescript/lib/lib.dom.d.ts","/opt/local/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/opt/local/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/Users/keke/part1a/src/Components/Part1a.js","/Users/keke/part1a/src/Components/Part1c.js","/Users/keke/part1a/src/index.js"],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/Users/keke/part1a/src","kind":"discover"}
+[13:51:6.307] Explicitly included types: []
+[13:51:6.310] Inferred typings from unresolved imports: []
+[13:51:6.311] Result: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/Users/keke/part1a/src/Components/bower_components","/Users/keke/part1a/src/Components/node_modules","/Users/keke/part1a/src/bower_components","/Users/keke/part1a/src/node_modules"]}
+[13:51:6.312] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/Users/keke/part1a/src/Components/bower_components","/Users/keke/part1a/src/Components/node_modules","/Users/keke/part1a/src/bower_components","/Users/keke/part1a/src/node_modules"]}
+[13:51:6.312] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":[],"kind":"action::set"}
+[13:51:6.313] Response has been sent.
+[13:51:6.313] No new typings were requested as a result of typings discovery
+[13:51:8.943] Got install request {"projectName":"/dev/null/inferredProject2*","fileNames":[],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/Users/keke/part1a/src/Components","kind":"discover"}
+[13:51:8.944] Explicitly included types: []
+[13:51:8.950] Inferred typings from unresolved imports: []
+[13:51:8.950] Result: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/Users/keke/part1a/src/Components/bower_components","/Users/keke/part1a/src/Components/node_modules"]}
+[13:51:8.950] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/Users/keke/part1a/src/Components/bower_components","/Users/keke/part1a/src/Components/node_modules"]}
+[13:51:8.950] Sending response:
+    {"projectName":"/dev/null/inferredProject2*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true},"typings":[],"unresolvedImports":[],"kind":"action::set"}
+[13:51:8.950] Response has been sent.
+[13:51:8.950] No new typings were requested as a result of typings discovery
+[13:53:41.362] DirectoryWatcher:: Triggered with /Users/keke/part1a/src/Components/index.js :: WatchInfo: /Users/keke/part1a/src/Components recursive :: handler is already invoked 'false'
+[13:53:49.421] DirectoryWatcher:: Triggered with /Users/keke/part1a/src/Components/index.js :: WatchInfo: /Users/keke/part1a/src/Components recursive :: handler is already invoked 'false'
+[13:53:49.422] DirectoryWatcher:: Triggered with /Users/keke/part1a/src/Components/Part1d.js :: WatchInfo: /Users/keke/part1a/src/Components recursive :: handler is already invoked 'false'
+[13:53:56.220] Got install request {"projectName":"/dev/null/inferredProject2*","fileNames":["/opt/local/lib/node_modules/typescript/lib/lib.d.ts","/opt/local/lib/node_modules/typescript/lib/lib.es5.d.ts","/opt/local/lib/node_modules/typescript/lib/lib.dom.d.ts","/opt/local/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/opt/local/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/Users/keke/part1a/src/Components/Part1d.js"],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/Users/keke/part1a/src/Components","kind":"discover"}
+[13:53:56.222] Explicitly included types: []
+[13:53:56.228] Inferred typings from unresolved imports: []
+[13:53:56.229] Result: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/Users/keke/part1a/src/Components/bower_components","/Users/keke/part1a/src/Components/node_modules"]}
+[13:53:56.229] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/Users/keke/part1a/src/Components/bower_components","/Users/keke/part1a/src/Components/node_modules"]}
+[13:53:56.231] Sending response:
+    {"projectName":"/dev/null/inferredProject2*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":[],"kind":"action::set"}
+[13:53:56.233] Response has been sent.
+[13:53:56.234] No new typings were requested as a result of typings discovery
+[13:53:57.303] DirectoryWatcher:: Triggered with /Users/keke/part1a/src/Components/.#Part1d.js :: WatchInfo: /Users/keke/part1a/src/Components recursive :: handler is already invoked 'false'
+[13:54:27.80] DirectoryWatcher:: Triggered with /Users/keke/part1a/src/Components/.#Part1d.js :: WatchInfo: /Users/keke/part1a/src/Components recursive :: handler is already invoked 'false'
+[13:55:6.891] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":["/opt/local/lib/node_modules/typescript/lib/lib.d.ts","/opt/local/lib/node_modules/typescript/lib/lib.es5.d.ts","/opt/local/lib/node_modules/typescript/lib/lib.dom.d.ts","/opt/local/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/opt/local/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/Users/keke/part1a/src/Components/Part1a.js","/Users/keke/part1a/src/Components/Part1c.js","/Users/keke/part1a/src/Components/Part1d.js","/Users/keke/part1a/src/index.js"],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/Users/keke/part1a/src","kind":"discover"}
+[13:55:6.892] Explicitly included types: []
+[13:55:6.900] Inferred typings from unresolved imports: []
+[13:55:6.902] Result: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/Users/keke/part1a/src/Components/bower_components","/Users/keke/part1a/src/Components/node_modules","/Users/keke/part1a/src/bower_components","/Users/keke/part1a/src/node_modules"]}
+[13:55:6.902] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/Users/keke/part1a/src/Components/bower_components","/Users/keke/part1a/src/Components/node_modules","/Users/keke/part1a/src/bower_components","/Users/keke/part1a/src/node_modules"]}
+[13:55:6.902] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":[],"kind":"action::set"}
+[13:55:6.903] Response has been sent.
+[13:55:6.904] No new typings were requested as a result of typings discovery
+[13:55:9.517] Got install request {"projectName":"/dev/null/inferredProject2*","fileNames":[],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/Users/keke/part1a/src/Components","kind":"discover"}
+[13:55:9.517] Explicitly included types: []
+[13:55:9.523] Inferred typings from unresolved imports: []
+[13:55:9.523] Result: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/Users/keke/part1a/src/Components/bower_components","/Users/keke/part1a/src/Components/node_modules"]}
+[13:55:9.523] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/Users/keke/part1a/src/Components/bower_components","/Users/keke/part1a/src/Components/node_modules"]}
+[13:55:9.524] Sending response:
+    {"projectName":"/dev/null/inferredProject2*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true},"typings":[],"unresolvedImports":[],"kind":"action::set"}
+[13:55:9.524] Response has been sent.
+[13:55:9.524] No new typings were requested as a result of typings discovery
+[13:58:23.824] DirectoryWatcher:: Triggered with /Users/keke/part1a/src/Components/index.js :: WatchInfo: /Users/keke/part1a/src/Components recursive :: handler is already invoked 'false'
+[13:58:37.591] DirectoryWatcher:: Triggered with /Users/keke/part1a/src/Components/index.js :: WatchInfo: /Users/keke/part1a/src/Components recursive :: handler is already invoked 'false'
+[13:58:37.593] DirectoryWatcher:: Triggered with /Users/keke/part1a/src/Components/Part1homework.js :: WatchInfo: /Users/keke/part1a/src/Components recursive :: handler is already invoked 'false'
+[13:58:49.704] Got install request {"projectName":"/dev/null/inferredProject2*","fileNames":["/opt/local/lib/node_modules/typescript/lib/lib.d.ts","/opt/local/lib/node_modules/typescript/lib/lib.es5.d.ts","/opt/local/lib/node_modules/typescript/lib/lib.dom.d.ts","/opt/local/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/opt/local/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/Users/keke/part1a/src/Components/Part1homework.js"],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/Users/keke/part1a/src/Components","kind":"discover"}
+[13:58:49.704] Explicitly included types: []
+[13:58:49.709] Inferred typings from unresolved imports: []
+[13:58:49.709] Result: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/Users/keke/part1a/src/Components/bower_components","/Users/keke/part1a/src/Components/node_modules"]}
+[13:58:49.709] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/Users/keke/part1a/src/Components/bower_components","/Users/keke/part1a/src/Components/node_modules"]}
+[13:58:49.710] Sending response:
+    {"projectName":"/dev/null/inferredProject2*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":[],"kind":"action::set"}
+[13:58:49.710] Response has been sent.
+[13:58:49.710] No new typings were requested as a result of typings discovery
+[13:58:51.157] DirectoryWatcher:: Triggered with /Users/keke/part1a/src/Components/.#Part1homework.js :: WatchInfo: /Users/keke/part1a/src/Components recursive :: handler is already invoked 'false'
+[13:58:51.546] Got install request {"projectName":"/dev/null/inferredProject2*","fileNames":["/opt/local/lib/node_modules/typescript/lib/lib.d.ts","/opt/local/lib/node_modules/typescript/lib/lib.es5.d.ts","/opt/local/lib/node_modules/typescript/lib/lib.dom.d.ts","/opt/local/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/opt/local/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/Users/keke/part1a/src/Components/Part1homework.js"],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":["re"],"projectRootPath":"/Users/keke/part1a/src/Components","kind":"discover"}
+[13:58:51.553] Explicitly included types: []
+[13:58:51.554] Inferred typings from unresolved imports: ["re"]
+[13:58:51.556] Result: {"cachedTypingPaths":[],"newTypingNames":["re"],"filesToWatch":["/Users/keke/part1a/src/Components/bower_components","/Users/keke/part1a/src/Components/node_modules"]}
+[13:58:51.559] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":["re"],"filesToWatch":["/Users/keke/part1a/src/Components/bower_components","/Users/keke/part1a/src/Components/node_modules"]}
+[13:58:51.561] Installing typings ["re"]
+[13:58:51.562] 're':: Entry for package 're' does not exist in local types registry - skipping...
+[13:58:51.563] All typings are known to be missing or invalid - no need to install more typings
+[13:58:51.565] Sending response:
+    {"projectName":"/dev/null/inferredProject2*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":["re"],"kind":"action::set"}
+[13:58:51.567] Response has been sent.
+[13:58:52.320] DirectoryWatcher:: Triggered with /Users/keke/part1a/src/Components/.#Part1homework.js :: WatchInfo: /Users/keke/part1a/src/Components recursive :: handler is already invoked 'false'
+[13:58:52.651] Got install request {"projectName":"/dev/null/inferredProject2*","fileNames":["/opt/local/lib/node_modules/typescript/lib/lib.d.ts","/opt/local/lib/node_modules/typescript/lib/lib.es5.d.ts","/opt/local/lib/node_modules/typescript/lib/lib.dom.d.ts","/opt/local/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/opt/local/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/Users/keke/part1a/src/Components/Part1homework.js"],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/Users/keke/part1a/src/Components","kind":"discover"}
+[13:58:52.655] Explicitly included types: []
+[13:58:52.661] Inferred typings from unresolved imports: []
+[13:58:52.662] Result: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/Users/keke/part1a/src/Components/bower_components","/Users/keke/part1a/src/Components/node_modules"]}
+[13:58:52.666] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/Users/keke/part1a/src/Components/bower_components","/Users/keke/part1a/src/Components/node_modules"]}
+[13:58:52.667] Sending response:
+    {"projectName":"/dev/null/inferredProject2*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":[],"kind":"action::set"}
+[13:58:52.668] Response has been sent.
+[13:58:52.669] No new typings were requested as a result of typings discovery
+[13:58:53.584] DirectoryWatcher:: Triggered with /Users/keke/part1a/src/Components/.#Part1homework.js :: WatchInfo: /Users/keke/part1a/src/Components recursive :: handler is already invoked 'false'
+[13:59:8.889] DirectoryWatcher:: Triggered with /Users/keke/part1a/src/Components/.#Part1homework.js :: WatchInfo: /Users/keke/part1a/src/Components recursive :: handler is already invoked 'false'
+[13:59:44.774] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":["/opt/local/lib/node_modules/typescript/lib/lib.d.ts","/opt/local/lib/node_modules/typescript/lib/lib.es5.d.ts","/opt/local/lib/node_modules/typescript/lib/lib.dom.d.ts","/opt/local/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/opt/local/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/Users/keke/part1a/src/Components/Part1a.js","/Users/keke/part1a/src/Components/Part1c.js","/Users/keke/part1a/src/Components/Part1d.js","/Users/keke/part1a/src/Components/Part1homework.js","/Users/keke/part1a/src/index.js"],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/Users/keke/part1a/src","kind":"discover"}
+[13:59:44.777] Explicitly included types: []
+[13:59:44.782] Inferred typings from unresolved imports: []
+[13:59:44.783] Result: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/Users/keke/part1a/src/Components/bower_components","/Users/keke/part1a/src/Components/node_modules","/Users/keke/part1a/src/bower_components","/Users/keke/part1a/src/node_modules"]}
+[13:59:44.784] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/Users/keke/part1a/src/Components/bower_components","/Users/keke/part1a/src/Components/node_modules","/Users/keke/part1a/src/bower_components","/Users/keke/part1a/src/node_modules"]}
+[13:59:44.785] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":[],"kind":"action::set"}
+[13:59:44.787] Response has been sent.
+[13:59:44.788] No new typings were requested as a result of typings discovery
+[13:59:47.400] Got install request {"projectName":"/dev/null/inferredProject2*","fileNames":[],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/Users/keke/part1a/src/Components","kind":"discover"}
+[13:59:47.400] Explicitly included types: []
+[13:59:47.405] Inferred typings from unresolved imports: []
+[13:59:47.405] Result: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/Users/keke/part1a/src/Components/bower_components","/Users/keke/part1a/src/Components/node_modules"]}
+[13:59:47.406] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/Users/keke/part1a/src/Components/bower_components","/Users/keke/part1a/src/Components/node_modules"]}
+[13:59:47.406] Sending response:
+    {"projectName":"/dev/null/inferredProject2*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true},"typings":[],"unresolvedImports":[],"kind":"action::set"}
+[13:59:47.406] Response has been sent.
+[13:59:47.406] No new typings were requested as a result of typings discovery
+[14:0:54.658] DirectoryWatcher:: Triggered with /Users/keke/part1a/src/Components/.#Part1homework.js :: WatchInfo: /Users/keke/part1a/src/Components recursive :: handler is already invoked 'false'
+[14:1:0.633] DirectoryWatcher:: Triggered with /Users/keke/part1a/src/Components/.#Part1homework.js :: WatchInfo: /Users/keke/part1a/src/Components recursive :: handler is already invoked 'false'

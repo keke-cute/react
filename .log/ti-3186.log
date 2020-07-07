@@ -1,0 +1,31 @@
+[21:17:14.755] Global cache location '/Users/keke/Library/Caches/typescript/3.9', safe file path '/opt/local/lib/node_modules/typescript/lib/typingsafelist.json', types map path /opt/local/lib/node_modules/typescript/lib/typesmap.json
+[21:17:14.757] Processing cache location '/Users/keke/Library/Caches/typescript/3.9'
+[21:17:14.757] Trying to find '/Users/keke/Library/Caches/typescript/3.9/package.json'...
+[21:17:14.757] Loaded content of '/Users/keke/Library/Caches/typescript/3.9/package.json': {"private":true,"dependencies":{"types-registry":"^0.1.497"}}
+[21:17:14.757] Loaded content of '/Users/keke/Library/Caches/typescript/3.9/package-lock.json'
+[21:17:14.758] Finished processing cache location '/Users/keke/Library/Caches/typescript/3.9'
+[21:17:14.758] Process id: 3187
+[21:17:14.758] NPM location: /opt/local/bin/npm (explicit '--npmLocation' not  provided)
+[21:17:14.758] validateDefaultNpmLocation: false
+[21:17:14.758] Npm config file: /Users/keke/Library/Caches/typescript/3.9/package.json
+[21:17:14.759] Updating types-registry npm package...
+[21:17:14.759] Exec: /opt/local/bin/npm install --ignore-scripts types-registry@latest
+[21:17:18.773]     Succeeded. stdout:
+    + types-registry@0.1.497
+    updated 1 package and audited 1 package in 3.322s
+found 0 vulnerabilities
+
+
+[21:17:18.773] Updated types-registry npm package
+[21:17:18.789] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":["/opt/local/lib/node_modules/typescript/lib/lib.d.ts","/opt/local/lib/node_modules/typescript/lib/lib.es5.d.ts","/opt/local/lib/node_modules/typescript/lib/lib.dom.d.ts","/opt/local/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/opt/local/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/Users/keke/part1/src/index.js"],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/Users/keke/part1/src","kind":"discover"}
+[21:17:18.808] Loaded safelist from types map file '/opt/local/lib/node_modules/typescript/lib/typesmap.json'
+[21:17:18.809] Explicitly included types: []
+[21:17:18.811] Inferred typings from unresolved imports: []
+[21:17:18.811] Result: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/Users/keke/part1/src/bower_components","/Users/keke/part1/src/node_modules"]}
+[21:17:18.811] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/Users/keke/part1/src/bower_components","/Users/keke/part1/src/node_modules"]}
+[21:17:18.811] DirectoryWatcher:: Added:: WatchInfo: /Users/keke/part1/src/bower_components
+[21:17:18.813] DirectoryWatcher:: Added:: WatchInfo: /Users/keke/part1/src/node_modules
+[21:17:18.813] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":[],"kind":"action::set"}
+[21:17:18.815] Response has been sent.
+[21:17:18.815] No new typings were requested as a result of typings discovery
