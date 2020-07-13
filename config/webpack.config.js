@@ -145,9 +145,15 @@ module.exports = function(webpackEnv) {
 		  require.resolve('react-dev-utils/webpackHotDevClient'),
 	      paths.appIndexJs,
 	  ].filter(Boolean),
+	  components: [
+	      paths.appComponents,
+	  ].filter(Boolean),
 	  myapp: [
 	      paths.appMyappJs,
-	  ].filter(Boolean)
+	  ].filter(Boolean),
+	  about: [
+	      paths.appAbout,
+	  ].filter(Boolean),
       },
     output: {
       // The build folder.
@@ -534,6 +540,60 @@ module.exports = function(webpackEnv) {
                     template: paths.appHtml,  //和main页面使用一个html模板
                     filename: 'myapp.html', //生成的名字是 admin.html
                     chunks: ['myapp']  //表示载入admin开头的chunk.js文件
+                },
+                isEnvProduction
+                    ? {
+                        minify: {
+                            removeComments: true,
+                            collapseWhitespace: true,
+                            removeRedundantAttributes: true,
+                            useShortDoctype: true,
+                            removeEmptyAttributes: true,
+                            removeStyleLinkTypeAttributes: true,
+                            keepClosingSlash: true,
+                            minifyJS: true,
+                            minifyCSS: true,
+                            minifyURLs: true,
+                        },
+                    }
+                : undefined
+            )
+        ),
+	new HtmlWebpackPlugin(   
+            Object.assign(
+                {},
+                {
+                    inject: true,
+                    template: paths.appHtml,  
+                    filename: 'components.html', 
+                    chunks: ['components']  
+                },
+                isEnvProduction
+                    ? {
+                        minify: {
+                            removeComments: true,
+                            collapseWhitespace: true,
+                            removeRedundantAttributes: true,
+                            useShortDoctype: true,
+                            removeEmptyAttributes: true,
+                            removeStyleLinkTypeAttributes: true,
+                            keepClosingSlash: true,
+                            minifyJS: true,
+                            minifyCSS: true,
+                            minifyURLs: true,
+                        },
+                    }
+                : undefined
+            )
+        ),
+		new HtmlWebpackPlugin(   
+            Object.assign(
+                {},
+                {
+                    inject: true,
+                    template: paths.appHtml,  
+                    filename: 'about.html', 
+                    chunks: ['about']  
                 },
                 isEnvProduction
                     ? {

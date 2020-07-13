@@ -14,7 +14,7 @@ code {
 
 .mydiv {
     background-color: #e4e3e3;
-    width: 50%;
+    width: 70%;
     margin: 0 auto;
     padding: 0 20px 20px 20px;
     border: 2px solid #84a9ac;
@@ -23,4 +23,20 @@ code {
 .myh1 {
     color: #3b6978;
     font-family: 'Noto Serif', serif;
+}
+
+.grid {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+}
+
+
+.mya {
+    transform: translateY(50%);
+    transition: background 0.5s; 
+    -webkit-transition: background 0.5s;
+}
+.mya:hover {
+    background-color: #84a9ac;
 }
