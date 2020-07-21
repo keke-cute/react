@@ -16,12 +16,6 @@ const History = (props) => {
     )
 }
 
-const Button = ({ onClick, text }) => (
-    <button onClick = { onclick }>
-	{text}
-    </button>
-)
-
 const Part1d = () => {
     const [clicks, setClicks] = useState({
 	left: 0, right: 0
