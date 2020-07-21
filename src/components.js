@@ -19,7 +19,7 @@ import Footer from './Components/footer'
 
 function App () {
     return (
-	<body>
+	<header>
 	    <Menu />
 	    <div className="mydiv">
 		<h1 className="myh1">Part1a:</h1>
@@ -58,7 +58,7 @@ function App () {
 		<Part2aHomework />
 	    </div>
 	    <Footer />
-	</body>
+	</header>
     )
 }
 

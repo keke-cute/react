@@ -22,6 +22,7 @@ const Part2aHomework = () => {
 	    }
 	]
     }
+    console.log(Course.parts.map(part => part.name))
     const Header = ({Course}) => {
 	return (
 	    <h1>
@@ -29,8 +30,19 @@ const Part2aHomework = () => {
 	    </h1>
 	)
     }
+
+    const Content = ({Course}) => {
+	return (
+	    <div>
+		{Course.parts.map(part => <p key = {part.id}>{part.name} {part.exercises}</p>)}
+	    </div>
+	)}
+    
     return (
-	<Header Course={Course}/>
+	<header>
+	    <Header Course={Course}/>
+	    <Content Course={Course}/>
+	</header>
     )
 }
 

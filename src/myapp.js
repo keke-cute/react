@@ -7,11 +7,11 @@ import Footer from './Components/footer'
 
 function App () {
     return (
-	<body>
+	<header>
 	    <Menu />
 	    <div className="mydiv">this is my app page, now is empty,please use menu visit to other pages</div>
 	    <Footer />
-	</body>
+	</header>
     )
 }
 
