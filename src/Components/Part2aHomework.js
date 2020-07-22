@@ -1,48 +1,73 @@
 import React from 'react'
 
 const Part2aHomework = () => {
-    const Course = {
-	id: 1,
-	name: 'Half Stack application development',
-	parts: [
-	    {
-		name: 'Fundamentals of React',
-		exercises: 10,
-		id: 1,
-	    },
-	    {
-		name: 'Using props to pass data',
-		exercises: 7,
-		id: 2,
-	    },
-	    {
-		name: 'State of a component',
-		exercises: 14,
-		id: 3,
-	    }
-	]
-    }
-    console.log(Course.parts.map(part => part.name))
-    const Header = ({Course}) => {
-	return (
-	    <h1>
-		{Course.name}
-	    </h1>
-	)
-    }
+    const Course = [
+	{
+	    name: 'Half Stack application development',
+	    id: 1,
+	    parts: [
+		{
+		    name: 'Fundamentals of React',
+		    exercises: 10,
+		    id: 1
+		},
+		{
+		    name: 'Using props to pass data',
+		    exercises: 7,
+		    id: 2
+		},
+		{
+		    name: 'State of a component',
+		    exercises: 14,
+		    id: 3
+		},
+		{
+		    name: 'Redux',
+		    exercises: 11,
+		    id: 4
+		}
+	    ]
+	}, 
+	{
+	    name: 'Node.js',
+	    id: 2,
+	    parts: [
+		{
+		    name: 'Routing',
+		    exercises: 3,
+		    id: 1
+		},
+		{
+		    name: 'Middlewares',
+		    exercises: 7,
+		    id: 2
+		}
+	    ]
+	}
+    ]
 
-    const Content = ({Course}) => {
+    const Header = ({Course}) => {
+	let total = 0;
 	return (
 	    <div>
-		{Course.parts.map(part => <p key = {part.id}>{part.name} {part.exercises}</p>)}
+		<h1>Web development curriculum</h1>
+		{Course.map(item =>
+		    <header key = {item.id}>
+			<h3 key = {item.id}>
+			    {item.name}
+			</h3>
+			{item.parts.map(part =>
+			    <p key={part.id}>
+				{part.name} {part.exercises}
+			    </p>,total = 0,item.parts.map(item => total += item.exercises)
+			)}
+			<p>total of {total} exercises</p>
+		    </header>
+		)}
 	    </div>
 	)}
-    
     return (
-	<header>
 	    <Header Course={Course}/>
-	    <Content Course={Course}/>
-	</header>
     )
 }
 
