@@ -43,6 +43,22 @@ const Part2aHomework = () => {
 		    id: 2
 		}
 	    ]
+	},
+    	{
+	    name: 'keaiduo',
+	    id: 3,
+	    parts: [
+		{
+		    name: 'keke',
+		    exercises: 19,
+		    id: 1
+		},
+		{
+		    name: 'keai',
+		    exercises: 7,
+		    id: 2
+		}
+	    ]
 	}
     ]
 
