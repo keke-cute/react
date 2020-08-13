@@ -15,6 +15,8 @@ import Part2aHomework from './Components/Part2aHomework'
 import Part2b from './Components/Part2b'
 import Part2bHomework from './Components/Part2bHomework'
 import Part2c from './Components/Part2c'
+import Part2cHomework from './Components/Part2cHomework'
+import Part2cHomework2 from './Components/Part2cHomework2'
 
 import Footer from './Components/footer'
 //import TempTest from './Components/TempTest'
@@ -71,6 +73,14 @@ function App () {
 	    <div className="mydiv">
 		<h1 className="myh1">Part2c</h1>
 		<Part2c />
+	    </div>
+	    <div className="mydiv">
+  		<h1 className="myh1">Part2cHomework</h1>
+		<Part2cHomework />
+	    </div>
+	    <div className="mydiv">
+  		<h1 className="myh1">Part2cHomework2</h1>
+		<Part2cHomework2 />
 	    </div>
 	    <Footer />
 	</header>
